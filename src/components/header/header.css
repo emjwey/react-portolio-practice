@@ -1,0 +1,53 @@
+
+
+header{
+    @apply h-screen pt-24 overflow-hidden
+}
+
+.header__container{
+    @apply text-center h-full relative
+}
+
+.cta{
+    @apply mt-8 flex gap-4 justify-center
+}
+ 
+
+/* HEADER SOCIALS */
+.header__socials{
+    @apply flex flex-col items-center absolute left-0 bottom-12 gap-5 
+}
+
+.header__socials::after{
+    content:''; 
+    background: var(--color-primary);
+    @apply w-[1px] h-5 
+}
+
+/* IMAGE ME */
+
+.me{
+    background:linear-gradient(var(--color-primary) , transparent);
+    left:calc(50% - 11rem);
+    @apply w-[22rem] h-[30rem] absolute mt-20 rounded-t-[12rem]   p-3 pt-[5rem]
+}
+
+.scroll_down{
+    @apply absolute right-[-2.3rem] bottom-[5rem] rotate-90
+}
+
+@media(max-width:1024px){
+    header{
+        @apply h-[68vh]
+    }
+}
+
+@media(max-width:600px){
+    header{
+        @apply h-screen
+    }
+    .header__socials,
+    .scroll_down{
+        @apply hidden
+    }
+}

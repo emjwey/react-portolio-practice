@@ -1,0 +1,56 @@
+.experience__container{
+    grid-template-columns: 1fr 1fr;
+    @apply grid gap-8
+}
+
+.experience__container > div{
+    background:var(--color-bg-variant);
+    @apply py-[2.4rem] px-[5rem] rounded-3xl border-0 border-transparent
+}
+
+.experience__container > div:hover{
+    @apply bg-transparent cursor-pointer duration-300 border-[1px];
+    border-color: var(--color-primary-variant);
+}
+.experience__container h3{
+    @apply text-center mb-8 text-xl;
+    color: var(--color-primary);
+}
+
+.experience__content{
+    @apply grid gap-8;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience__details{
+    @apply flex gap-4
+}
+.experience__details h4{
+    @apply mb-0
+}
+
+.experience__details > svg{
+    @apply mt-[6px];
+    color: var(--color-primary);
+}
+
+@media(max-width:1024px){
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+    .experience__container > div{
+        @apply w-[80%] p-8 m-auto
+    }
+    .experience__content{
+        @apply p-4
+    }
+}
+
+@media(max-width:600px){
+    .experience__container{
+        @apply gap-4
+    }
+    .experience__container > div{
+        @apply w-full py-8 px-4
+    }
+}

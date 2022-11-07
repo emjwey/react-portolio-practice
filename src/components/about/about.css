@@ -1,0 +1,78 @@
+.about__container{
+    grid-template-columns: 35% 50%;
+    @apply grid gap-[15%]
+}
+
+.about__me{
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    @apply w-full aspect-square grid place-items-center rounded-3xl
+}
+
+.about__me-image{
+    @apply rounded-3xl overflow-hidden rotate-[10deg] ease-in-out duration-300
+}
+
+.about__me-image:hover{
+    @apply rotate-0
+}
+
+.about__cards{
+    @apply grid-cols-3 grid gap-8
+}
+
+.about__card{
+    background:var(--color-bg-variant);
+    @apply border-[1px] border-transparent rounded-xl text-center py-10 px-6 duration-300
+}
+.about__card:hover{
+    border-color:var(--color-primary-variant);
+    @apply cursor-pointer bg-transparent 
+}
+
+.about__icon svg{
+    color:var(--color-primary);
+    @apply text-2xl mb-4 m-auto
+}
+
+.about__icon {
+    @apply block text-center
+}
+
+.about__card h5{
+    @apply text-base
+}
+
+.about__card small{
+    @apply text-sm;
+    color:var(--color-light) 
+}
+
+.about__content p{
+    @apply my-6;
+    color: var(--color-light);
+}
+
+@media(max-width:1024px){
+    .about__container{
+        @apply grid-cols-1 gap-0
+    }
+    .about__me{
+        @apply w-1/2 mx-auto mt-6 mb-12
+    }
+    .about__content p{
+        @apply mt-4 mb-6
+    }
+}
+
+@media(max-width:600px){
+    .about__me{
+        @apply w-[65%] mt-0 mx-auto mb-12
+    }
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        @apply  gap-4
+    }
+    .about__content {
+        @apply text-center
+    }
+}

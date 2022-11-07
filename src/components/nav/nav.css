@@ -1,0 +1,17 @@
+nav{
+    background:rgba(0,0,0,.3);
+    @apply fixed bottom-6 flex gap-5 py-2 px-4 rounded-[12rem] w-max left-2/4 translate-x-[-50%] z-10
+}
+
+nav > a{
+    @apply rounded-full  p-2 text-white
+}
+
+nav > a:hover{
+    background:rgba(0,0,0,.3)
+}
+
+nav > a.active{
+    background: var(--color-bg);
+    color: var(--color-white);
+}
