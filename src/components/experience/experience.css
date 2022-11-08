@@ -4,17 +4,15 @@
 }
 
 .experience__container > div{
-    background:var(--color-bg-variant);
-    @apply py-[2.4rem] px-[5rem] rounded-3xl border-0 border-transparent
+    @apply py-[2.4rem] px-[5rem] rounded-3xl border-[1px] border-transparent bg-[var(--color-bg-variant)]
 }
 
 .experience__container > div:hover{
-    @apply bg-transparent cursor-pointer duration-300 border-[1px];
-    border-color: var(--color-primary-variant);
+    @apply bg-transparent cursor-pointer duration-300 border-[1px]
+    border-[var(--color-primary-variant)]
 }
 .experience__container h3{
-    @apply text-center mb-8 text-xl;
-    color: var(--color-primary);
+    @apply text-center mb-8 text-xl text-[var(--color-primary)];
 }
 
 .experience__content{
@@ -30,8 +28,7 @@
 }
 
 .experience__details > svg{
-    @apply mt-[6px];
-    color: var(--color-primary);
+    @apply mt-[6px] text-[var(--color-primary)]
 }
 
 @media(max-width:1024px){

@@ -1,0 +1,44 @@
+.footer__container{
+    @apply py-12 px-0 text-center text-base mt-[7rem] bg-[var(--color-primary)]
+}
+
+.footer__container a{
+    @apply text-[var(--color-bg)]
+}
+
+.footer__logo{
+    @apply text-2xl font-medium mb-8 inline-block
+}
+
+.footer__links,.footer__socials{
+    @apply flex flex-wrap justify-center gap-8 mx-auto mb-12
+}
+.footer__socials{
+     @apply gap-4 mb-16
+}
+
+.footer__socials a{
+    @apply rounded-xl p-3 border-[1px] border-transparent 
+    duration-300 bg-[var(--color-bg)] text-[var(--color-white)]
+}
+
+.footer__socials a:hover{
+    @apply bg-transparent border-[var(--color-bg)] text-[var(--color-bg)]
+}
+
+.footer__copyright{
+    @apply mb-16 text-[var(--color-bg)]
+}
+
+ 
+
+/* ================= MEDIA QUERIES SMALL ================*/
+
+@media(max-width: 600px){
+    .footer__links{
+        @apply flex-col gap-6
+    }
+    .footer__socials{
+        @apply mb-10
+    }
+}

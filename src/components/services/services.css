@@ -3,18 +3,15 @@
 }
 
 .service{
-    background: var(--color-bg-variant);
-    border-color: var(--color-primary);
-    @apply rounded-b-3xl h-fit duration-300 border-[1px];
+    @apply rounded-b-3xl h-fit duration-300 border-[1px] 
+    bg-[var(--color-bg-variant)] border-[var(--color-primary)]
 }
 .service:hover{
-    border-color:var(--color-primary-variant);
-    @apply bg-transparent cursor-pointer
+    @apply bg-transparent cursor-pointer border-[var(--color-primary-variant)]
 }
 
 .service__head{
-    background:var(--color-primary);
-    @apply p-8 rounded-b-[2rem]
+    @apply p-8 rounded-b-[2rem] bg-[var(--color-primary)]
 }
 .service__head h3{
     @apply mb-0 text-center text-xl
@@ -26,8 +23,7 @@
     @apply flex gap-4 mb-3
 }
 .service__list li svg{
-    color: var(--color-primary);
-    @apply mt-[2px]
+    @apply mt-[2px] text-2xl text-[var(--color-primary)]
 }
 .service__list li p{
     @apply text-base

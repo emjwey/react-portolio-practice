@@ -3,13 +3,11 @@
 }
 
 .portfolio__item{
-    @apply p-5 rounded-3xl border-transparent border-[1px] duration-300 relative pb-20;
-    background:var(--color-bg-variant);
+    @apply p-5 rounded-3xl border-transparent border-[1px] duration-300 relative pb-20 bg-[var(--color-bg-variant)]
 }
 
 .portfolio__item:hover{
-    border-color: var(--color-primary-variant);
-    @apply bg-transparent
+    @apply bg-transparent border-[var(--color-primary-variant)]
 }
 
 .portfolio__item img{

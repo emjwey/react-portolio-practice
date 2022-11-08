@@ -5,7 +5,7 @@ import './testimonials.css'
 
 export default function Testimonials(){
     return (
-        <section>
+        <section id="testimonials">
             <h5>Review from clients</h5>
             <h2>Testimonials</h2>
 

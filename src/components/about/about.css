@@ -6,6 +6,7 @@
 .about__me{
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     @apply w-full aspect-square grid place-items-center rounded-3xl
+     
 }
 
 .about__me-image{
@@ -21,17 +22,15 @@
 }
 
 .about__card{
-    background:var(--color-bg-variant);
-    @apply border-[1px] border-transparent rounded-xl text-center py-10 px-6 duration-300
+    @apply border-[1px] border-transparent rounded-xl text-center 
+    py-10 px-6 duration-300 bg-[var(--color-bg-variant)]
 }
 .about__card:hover{
-    border-color:var(--color-primary-variant);
-    @apply cursor-pointer bg-transparent 
+    @apply cursor-pointer bg-transparent border-[var(--color-primary-variant)]
 }
 
 .about__icon svg{
-    color:var(--color-primary);
-    @apply text-2xl mb-4 m-auto
+    @apply text-2xl mb-4 m-auto text-[var(--color-primary)]
 }
 
 .about__icon {
@@ -43,13 +42,12 @@
 }
 
 .about__card small{
-    @apply text-sm;
-    color:var(--color-light) 
+    @apply text-sm  
 }
 
 .about__content p{
-    @apply my-6;
-    color: var(--color-light);
+    @apply my-8 text-[var(--color-light)] 
+     
 }
 
 @media(max-width:1024px){

@@ -1,0 +1,56 @@
+.contact__container{
+    @apply w-[58%] grid gap-[12%];
+    grid-template-columns: 30% 58%;
+
+}
+.contact__options{
+    @apply flex flex-col gap-5
+}
+.contact__option {
+    @apply p-5 rounded-2xl text-center border-[1px] border-transparent duration-300 bg-[var(--color-bg-variant)]
+}
+.contact__option:hover{
+    @apply bg-transparent border-[var(--color-primary-variant)];
+}
+
+.contact__option svg{
+    @apply inline-block mx-auto text-xl mb-2
+}
+
+.contact__option a{
+    @apply mt-3 inline-block text-base
+}
+
+.contact__form{
+    @apply flex flex-col gap-5
+}
+
+.contact__form input,
+.contact__form textarea{
+    @apply w-full p-5 rounded-xl border-2 resize-none bg-transparent 
+    border-[var(--color-primary-variant)] text-[var(--text-white)]
+}
+
+.contact__success{
+    @apply p-4 inline-block text-base font-light
+}
+.contact__success svg {
+    @apply inline-block text-base
+}
+
+/* ================= MEDIA QUERIES MEDIUM ================*/
+
+@media(max-width: 1024px){
+    .contact__container{
+        @apply grid-cols-1 gap-8
+    }
+}
+
+/* ================= MEDIA QUERIES SMALL ================*/
+
+@media(max-width: 600px){
+    .contact__container{
+        @apply w-[var(--container-width-sm)]
+    }
+ 
+}

@@ -3,6 +3,9 @@
 header{
     @apply h-screen pt-24 overflow-hidden
 }
+header h5{
+    @apply mb-4
+}
 
 .header__container{
     @apply text-center h-full relative
@@ -20,16 +23,16 @@ header{
 
 .header__socials::after{
     content:''; 
-    background: var(--color-primary);
-    @apply w-[1px] h-5 
+    @apply w-[1px] h-5 bg-[var(--color-primary)]
 }
 
 /* IMAGE ME */
 
 .me{
-    background:linear-gradient(var(--color-primary) , transparent);
+    
     left:calc(50% - 11rem);
     @apply w-[22rem] h-[30rem] absolute mt-20 rounded-t-[12rem]   p-3 pt-[5rem]
+    bg-gradient-to-b from-[var(--color-primary)] to-transparent
 }
 
 .scroll_down{
