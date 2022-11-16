@@ -1,30 +1,81 @@
 import React from "react"
 import "./about.css"
-import ME from '../../assets/me-about.jpg'
-
-
-import Articles from "./Articles"
+import ME from '../../assets/mark.jpg'
+import Skills from "./Skills"
+import {motion}  from "framer-motion"
+import {fadeIn, fadeUp, rotate, viewPort, zoomIn} from "../../animate"
 
 export default function About(){
+ 
     return (
         <section id="about">
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+            <motion.h5
+                whileInView = {fadeUp.onScreen}
+                initial = {fadeUp.offScreen}
+                variants = {fadeUp}
+                viewport = {viewPort}
+                transition={{ delay: 0.1}}
+            >
+                Get To Know
+            </motion.h5>
+            <motion.h2
+                whileInView = {fadeUp.onScreen}
+                initial = {fadeUp.offScreen}
+                variants = {fadeUp}
+                viewport = {viewPort}
+                transition={{ delay: 0.15}}
+            >   
+                About Me
+            </motion.h2>
 
             <div className="container about__container">
-                <div className="about__me">
-                    <div className="about__me-image">
-                        <img src={ME} alt="about me" />
-                    </div>
-                </div>
+                <motion.div 
+                    whileInView = {fadeIn.onScreen}
+                    initial = {fadeIn.offScreen}
+                    variants = {fadeIn}
+                    viewport = {viewPort}
+                    transition={{ delay: 0.3}}
+                    className="about__me">
+                    <motion.div 
+                        whileInView = {zoomIn.onScreen}
+                        initial = {zoomIn.offScreen}
+                        variants = {zoomIn}
+                        viewport = {viewPort}
+                        transition={{ delay: 0.5}}
+                        
+                        className="about__me-image "
+                    >
+                        <motion.img 
+                            initial = {rotate.onScreen}
+                            whileHover={rotate.offScreen} 
+                            src={ME} alt="about me"  />
+                    </motion.div>
+                </motion.div>
                 <div className="about__content">
-                    <Articles/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <a href="#contact" className="btn btn-primary">Let's Talk</a>
+                    <Skills />
+                    <motion.p
+                        whileInView = {fadeUp.onScreen}
+                        initial = {fadeUp.offScreen}
+                        variants = {fadeUp}
+                        viewport = {viewPort}
+                        transition={{ delay: 0.1}}
+                        >A <strong>WordPress Developer</strong> with 3 years of experience on WordPress CMS Websites. Able to customize, create custom-post-types, ACF, 3rd party integration with standard coding. I'm currently learning Webflow and ReactJs.
+                    </motion.p>
+                    <motion.a 
+                        whileInView = {fadeUp.onScreen}
+                        initial = {fadeUp.offScreen}
+                        variants = {fadeUp}
+                        viewport = {viewPort}
+                        transition={{ delay: 0.1}}
+                        href="#contact" 
+                        className="btn btn-primary"
+                        >
+                        Let's Talk
+                    </motion.a>
                 </div>
                 
             </div>
         </section>
+              
     )
 }

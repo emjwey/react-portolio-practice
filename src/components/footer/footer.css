@@ -14,12 +14,12 @@
     @apply flex flex-wrap justify-center gap-8 mx-auto mb-12
 }
 .footer__socials{
-     @apply gap-4 mb-16
+     @apply gap-4 mb-8
 }
 
 .footer__socials a{
     @apply rounded-xl p-3 border-[1px] border-transparent 
-    duration-300 bg-[var(--color-bg)] text-[var(--color-white)]
+    duration-300 bg-[var(--color-bg)] text-white
 }
 
 .footer__socials a:hover{
@@ -27,7 +27,7 @@
 }
 
 .footer__copyright{
-    @apply mb-16 text-[var(--color-bg)]
+    @apply mb-16 text-white
 }
 
  

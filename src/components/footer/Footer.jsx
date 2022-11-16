@@ -2,6 +2,8 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {RiInstagramFill} from 'react-icons/ri'
 import {IoLogoTwitter} from 'react-icons/io'
+import { fadeIn,staggerUp , viewPort } from '../../animate'
+import { motion} from "framer-motion"
 
 export default function Footer(){
 
@@ -18,12 +20,21 @@ export default function Footer(){
     const socialData =[
         {icon: <FaFacebookF/>, link:'https://fb.com/emjwey'},
         {icon: <RiInstagramFill/>, link:'https://instagram.com/emjweey'},
-        {icon: <IoLogoTwitter/>, link:'https://twitter.com/emjwey'},
+        {icon: <IoLogoTwitter/>, link:'https://twitter.com/emjweey'},
     ]
 
     const socialLink = socialData.map (({icon,link},index) => {
         return (
-            <a href={link} target="_blank" key={`social`+index}>{icon}</a>
+            <motion.a 
+                variants={staggerUp}  
+                custom={index}  
+                whileInView="onScreen"
+                initial ="offScreen"
+                href={link} 
+                target="_blank" 
+                key={`social`+index}>
+                    {icon}
+            </motion.a>
         )
     })
 
@@ -35,18 +46,19 @@ export default function Footer(){
 
     return (
         <footer className='footer__container'>
-            <a href="#" className='footer__logo'>Emjwey</a>
+            <motion.div 
 
-            <ul className='footer__links'>
-                {footerLink}
-            </ul>
-
-            <div className='footer__socials'>
+                className='footer__socials'>
                 {socialLink}
-            </div>
-
+            </motion.div>
             <div className="footer__copyright">
-                <small>&copy; React Porfolio by Emjwey creds Egator. All rights reserved.</small>
+                <motion.small
+                    whileInView = {fadeIn.onScreen}
+                    initial = {fadeIn.offScreen}
+                    variants = {fadeIn}
+                    viewport = {viewPort}
+                    transition={{ delay: 0.2}}
+                > Mark Jefferson Aninon. &copy; 2022</motion.small>
             </div>
         </footer>
     )

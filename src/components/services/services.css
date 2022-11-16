@@ -1,33 +1,29 @@
 .services__container{
-    @apply grid grid-cols-3 gap-12
+    @apply grid grid-cols-3 gap-12 max-w-[1200px]
 }
 
 .service{
-    @apply rounded-b-3xl h-fit duration-300 border-[1px] 
-    bg-[var(--color-bg-variant)] border-[var(--color-primary)]
+    @apply rounded-3xl   duration-300 border-[1px] pb-8
+    bg-[var(--color-bg-variant)] border-[var(--color-primary)] overflow-hidden
 }
 .service:hover{
     @apply bg-transparent cursor-pointer border-[var(--color-primary-variant)]
 }
 
 .service__head{
-    @apply p-8 rounded-b-[2rem] bg-[var(--color-primary)]
+    @apply px-8 rounded-b-[2rem] relative pt-20
 }
+.service__head > div{
+    @apply text-[100px] text-white opacity-10 absolute top-10 right-10
+}
+ 
 .service__head h3{
-    @apply mb-0 text-center text-xl
+    @apply mb-0 text-center text-xl text-[var(--color-white)] h-12
 }
 .service__list{
-    @apply p-8
+    @apply p-6 text-center
 }
-.service__list li {
-    @apply flex gap-4 mb-3
-}
-.service__list li svg{
-    @apply mt-[2px] text-2xl text-[var(--color-primary)]
-}
-.service__list li p{
-    @apply text-base
-}
+ 
 
 /* ================= MEDIA QUERIES MEDIUM ================*/
 

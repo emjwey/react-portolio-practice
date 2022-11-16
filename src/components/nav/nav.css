@@ -1,8 +1,9 @@
 nav{
    
     @apply fixed bottom-6 flex gap-5 py-2 px-4 
-    rounded-[12rem] w-max left-2/4 translate-x-[-50%] z-10
-    bg-[rgba(0,0,0,.3)] backdrop-blur-lg
+    rounded-[12rem] w-max z-10
+    bg-[rgba(0,0,0,.3)] backdrop-blur-lg;
+    left: calc(50% - (272px/2));
 }
 
 nav > a{

@@ -30,7 +30,10 @@
     @apply w-full p-5 rounded-xl border-2 resize-none bg-transparent 
     border-[var(--color-primary-variant)] text-[var(--text-white)]
 }
-
+.contact__form input:focus,
+.contact__form textarea:focus{
+    @apply border-[var(--color-primary)]
+}
 .contact__success{
     @apply p-4 inline-block text-base font-light
 }

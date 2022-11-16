@@ -10,8 +10,13 @@
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant:rgba(77,181,255,0.4);
+    /* --color-bg: #232224;
+    --color-bg-variant: #191b1b;
+    --color-primary: #ffffff;
+    --color-primary-variant:rgba(255, 255, 255, 0.699); */
     --color-light: rgba(255,255,255,.6);
     --color-white: #ffffff;
+    --color-dark: #151616;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -79,7 +84,7 @@ a:hover{
     @apply text-[var(--color-white)]
 }
 .btn{
-    @apply inline-block px-3 py-3 rounded-md cursor-pointer 
+    @apply inline-block px-6 py-3 rounded-md cursor-pointer 
     text-[var(--color-primary)] w-max border-[1px] border-[var(--color-primary)];
 }
 .btn:hover{

@@ -1,6 +1,8 @@
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
+import {FaLinkedinIn} from 'react-icons/fa'
+import { fadeIn2,staggerUp , viewPort } from '../../animate'
+import { motion} from "framer-motion"
 
 export default function ContactOptions(){
 
@@ -8,32 +10,40 @@ export default function ContactOptions(){
         {
             icon:<MdOutlineEmail/>,
             title:'Email',
-            contact:'support@emjwey.com',
+            contact:'me@emjwey.com',
             link:'mailto:support@emjwey.com'
         },
         {
             icon:<RiMessengerLine/>,
             title:'Messenger',
             contact:'emjwey',
-            link:'https://m.me.emjwey'
+            link:'https://m.me/emjwey',
+            
         },
         {
-            icon:<BsWhatsapp/>,
-            title:'WhatsApp',
-            contact:'097688292',
-            link:'https://api.whatsapp.com/send?+63982738782'
+            icon:<FaLinkedinIn/>,
+            title:'Linkedin',
+            contact:'/in/emjwey',
+            link:'https://www.linkedin.com/in/emjwey',
+            button: "Connect"
         }
     ]
 
 
-    const optionList = options.map(({icon,title,contact,link},index) => {
+    const optionList = options.map(({icon,title,contact,link,button},index) => {
         return (
-                <article className="contact__option" key={title+index}>
+                <motion.div 
+                    variants={staggerUp}  
+                    custom={index}  
+                    whileInView="onScreen"
+                    initial ="offScreen"
+                    className="contact__option" 
+                    key={title+index}>
                     {icon}
                     <h4>{title}</h4>
                     <p>{contact}</p>
-                    <a href={link} target="_blank">Send a message</a>
-                </article>
+                    <a href={link} target="_blank">{button? button : "Send a message"}</a>
+                </motion.div>
         )
     })
 

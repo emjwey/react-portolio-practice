@@ -1,6 +1,9 @@
 import React, { useRef ,useState} from 'react';
 import emailjs from 'emailjs-com';
 import {BsCheckCircle} from 'react-icons/bs'
+import {motion}  from "framer-motion"
+import { fadeIn ,viewPort} from '../../animate';
+
 export default function ContactForm(){
 
     const form = useRef();
@@ -21,7 +24,16 @@ export default function ContactForm(){
       };
 
     return (
-        <form className="contact__form" ref={form} onSubmit={sendEmail}>
+        <motion.form
+            whileInView = {fadeIn.onScreen}
+            initial = {fadeIn.offScreen}
+            variants = {fadeIn}
+            viewport = {viewPort}
+            transition={{ delay: 0.2}}
+            className="contact__form" 
+            ref={form} 
+            onSubmit={sendEmail}
+            >
             <input type="text" name="name" placeholder="Your Full Name" required/>
             <input type="email" name="email" placeholder="Your Email" required/>
             <textarea name="message" rows={7} placeholder="Your Message" required></textarea>
@@ -34,6 +46,6 @@ export default function ContactForm(){
                     </span>
                 }
             </div>
-        </form>
+        </motion.form>
     )
 }

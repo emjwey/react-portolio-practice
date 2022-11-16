@@ -1,27 +1,27 @@
 export default [
     {
         skill:'HTML',
-        level:'Experienced'
+        level:'Excellent'
     },
     {
         skill:'CSS',
-        level:'Intermediate',
+        level:'Excellent',
     },
     {
         skill:'JavaScript',
-        level:'Above Basic'
+        level:'Avarage'
     },
     {
         skill:'Bootstrap',
-        level:'Basic'
+        level:'Good'
     },
     {
         skill:'Tailwind',
-        level:'Basic'
+        level:'Good'
     },
     {
         skill:'React',
-        level:'Basic'
+        level:'Starter'
     }
 ]
  

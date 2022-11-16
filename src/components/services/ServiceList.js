@@ -1,16 +1,30 @@
 import data from './Data'
-import {BiCheck} from 'react-icons/bi'
+import { fadeIn2,staggerUp , viewPort } from '../../animate'
+import { motion} from "framer-motion"
+
 export default function ServiceList(){
     return data.map((service,index) => {
         return (
-            <article className="service" key={index}>
+            <motion.article 
+                variants={staggerUp}  
+                custom={index}  
+                whileInView="onScreen"
+                initial ="offScreen"
+                className="service" key={index}>
                 <div className="service__head">
+                    <motion.div
+                        whileInView = {fadeIn2.onScreen}
+                        initial = {fadeIn2.offScreen}
+                        variants = {fadeIn2}
+                        viewport = {viewPort}
+                        transition={{ delay: 1}}
+                    >{service.icon}</motion.div>
                     <h3>{service.title}</h3>
                 </div>
-                <ul className="service__list">
-                    {service.items.map((item,x) => <li key={`list`+x} ><BiCheck/> <p>{item}</p></li>)}
-                </ul>
-            </article>
+                <div className="service__list">
+                    {service.desc}
+                </div>
+            </motion.article>
         )
     })
 }

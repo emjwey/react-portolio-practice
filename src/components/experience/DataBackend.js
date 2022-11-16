@@ -1,24 +1,14 @@
 export default [
-    {
-        skill:'Node JS',
-        level:'Basic'
-    },
-    {
-        skill:'MonoDB',
-        level:'Basic',
-    },
+   
     {
         skill:'PHP',
-        level:'Basic'
+        level:'Good'
     },
     {
         skill:'MySQL',
-        level:'Basic'
+        level:'Good'
     },
-    {
-        skill:'Python',
-        level:'Basic'
-    },
+  
     
 ]
  

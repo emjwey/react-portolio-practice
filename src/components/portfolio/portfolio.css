@@ -3,30 +3,44 @@
 }
 
 .portfolio__item{
-    @apply p-5 rounded-3xl border-transparent border-[1px] duration-300 relative pb-20 bg-[var(--color-bg-variant)]
+    @apply p-5 rounded-3xl border-transparent overflow-hidden 
+    border-[1px] duration-300 relative bg-[var(--color-bg-variant)] 
 }
 
 .portfolio__item:hover{
     @apply bg-transparent border-[var(--color-primary-variant)]
 }
-
-.portfolio__item img{
-    @apply rounded-2xl overflow-hidden
+.portfolio__item-image{
+    @apply overflow-hidden max-h-[500px] rounded-2xl
 }
+ 
 
 .portfolio__item h3{
-    @apply mt-5 mx-0 mb-8 text-lg
+    @apply mx-0 text-lg text-white
+}
+.portfolio__item p{
+    @apply mb-2   text-sm font-thin text-white
 }
 
-.portfolio__item-cta{
-    @apply flex gap-4 absolute bottom-8
+.portfolio__item-info{
+    @apply   absolute  w-full pt-24 h-[160px]
+    bg-gradient-to-t from-[var(--color-bg)] to-transparent left-0 bottom-0 p-5
+}
+.portfolio__item-info a{
+    @apply absolute bottom-5  
 }
 
 /* ================= MEDIA QUERIES MEDIUM ================*/
+@media(max-width: 1200px){
+    .portfolio__container{
+        @apply grid-cols-3 gap-6
+    }
+}
+
 
 @media(max-width: 1024px){
     .portfolio__container{
-        @apply grid-cols-2 gap-6
+        @apply grid-cols-2 
     }
 }
 
@@ -42,11 +56,8 @@
     .portfolio__item{
         @apply pb-6
     }
-    .portfolio__item-cta{
-        @apply mt-6 ;
-        position:unset
+    .portfolio__item-info{
+        @apply text-center
     }
-    .portfolio__item-cta a{
-         @apply w-1/2 text-center
-    }
+    
 }

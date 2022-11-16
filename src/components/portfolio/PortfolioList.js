@@ -1,18 +1,38 @@
 import Data from "./Data";
+import { fadeIn,staggerUp , viewPort } from '../../animate'
+import { motion} from "framer-motion"
 
 export default function PortfolioList(){
-    return Data.map((list,index) => {
+ 
+    return Data.map(({url, title, category, image},index) => {
         return (
-            <article className="portfolio__item" key={index}>
-                <div className="portfolio__item-image">
-                    <img src={list.image}/>
-                </div>
-                <h3>{list.title}</h3> 
-                <div className="portfolio__item-cta">
-                    <a href={list.github} className="btn" target="_blank">Github</a> 
-                    <a href={list.demo} className="btn btn-primary" target="_blank">Live Demo</a>
-                </div>
-            </article>
+            <motion.a
+                variants={staggerUp}  
+                custom={index}  
+                whileInView="onScreen"
+                initial ="offScreen"
+                href={url} 
+                target="_blank"  
+                key={`portfolio-${index}`}>
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={image}/>
+                    </div>
+                    
+                    <div className="portfolio__item-info">
+                        <motion.div
+                           whileInView = {fadeIn.onScreen}
+                           initial = {fadeIn.offScreen}
+                           variants = {fadeIn}
+                           viewport = {viewPort}
+                           transition={{ delay: 1}}
+                        >
+                            <h3>{title}</h3> 
+                            <p>{category}</p>
+                        </motion.div>
+                    </div>
+                </article>
+            </motion.a>
         )
     })
 }

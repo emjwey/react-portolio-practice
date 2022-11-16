@@ -1,20 +1,30 @@
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {FiDribbble} from 'react-icons/fi'
+import {motion} from "framer-motion"
+import { fadeUp, fadeIn, viewPort } from '../../animate'
 
 export default function HeaderSocials(){
 
     return (
-        <div className="header__socials">
-            <a href="https://linkedin.com" target="_blank">
+        <motion.div 
+            whileInView = {fadeIn.onScreen}
+            initial = {fadeUp.offScreen}
+            variants = {fadeUp}
+            viewport = {viewPort}
+            transition={{  delay: 1}}
+            className="header__socials" >
+            <motion.a 
+                variants = {fadeUp}
+                href="https://linkedin.com/in/emjwey/" 
+                target="_blank">
                 <BsLinkedin/>
-            </a>
-            <a href="https://github.com" target="_blank">
+            </motion.a>
+            <motion.a
+                variants = {fadeUp}
+                href="https://github.com/emjwey/" 
+                target="_blank">
                 <FaGithub/>
-            </a>
-            <a href="https://dribble.com" target="_blank">
-                <FiDribbble/>
-            </a>
-        </div>
+            </motion.a>
+        </motion.div>
     )
 }

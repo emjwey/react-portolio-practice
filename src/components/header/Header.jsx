@@ -1,22 +1,70 @@
 
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import ME from '../../assets/me_standing.png'
 import HeaderSocials from './HeaderSocials'
+import { motion } from "framer-motion"
+import {fadeUp, fadeIn, viewPort } from "../../animate"
 
 export default function Header(){
     return (
         <header>
             <div className="container header__container">
-                <h5>Hello I'm</h5>
-                <h1>Mark Jefferson</h1>
-                <h5 className="text-light">Website Developer/WordPress Developer</h5>
+                <motion.h5
+                    whileInView = {fadeUp.onScreen}
+                    initial = {fadeUp.offScreen}
+                    variants = {fadeUp}
+                    viewport = {viewPort}
+                    transition={{ delay: 0.1}}
+                > 
+                    Hello I'm
+                </motion.h5>
+                <motion.h1
+                    whileInView = {fadeUp.onScreen}
+                    initial = {fadeUp.offScreen}
+                    variants = {fadeUp}
+                    viewport = {viewPort}
+                    transition={{  delay: 0.15}}
+                >  
+                    Mark Jefferson Aniñon
+                </motion.h1>
+                <motion.h5 className="text-light job__desc"
+                     whileInView = {fadeUp.onScreen}
+                     initial = {fadeUp.offScreen}
+                     variants = {fadeUp}
+                     viewport = {viewPort}
+                     transition={{  delay: 0.2}}
+                >
+                    Website Developer/WordPress Developer
+                </motion.h5>
                 <CTA/>
                 <HeaderSocials/>
-                <div className="me">
-                    <img src={ME} alt="me" />
-                </div>
-                <a href="#contact" className='scroll_down'>Scroll Down</a>
+                <motion.div 
+                    whileInView = {fadeIn.onScreen}
+                    initial = {fadeIn.offScreen}
+                    variants = {fadeIn}
+                    viewport = {viewPort}
+                    transition={{  delay: 0.5}}
+                    className="me">
+                    <motion.img 
+                        whileInView = {fadeUp.onScreen}
+                        initial = {fadeUp.offScreen}
+                        variants = {fadeUp}
+                        viewport = {viewPort}
+                        transition={{  delay: 0.7}}
+                        src={ME} alt="me" />
+                </motion.div>
+                <motion.a 
+                    whileInView = {fadeIn.onScreen}
+                    initial = {fadeIn.offScreen}
+                    variants = {fadeIn}
+                    viewport = {viewPort}
+                    transition={{  delay: 0.7}}
+                    href="#about" 
+                    className='scroll_down'
+                >
+                    Scroll Down
+                </motion.a>
             </div>
         </header>
     )
