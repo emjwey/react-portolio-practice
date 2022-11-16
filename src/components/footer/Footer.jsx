@@ -30,6 +30,7 @@ export default function Footer(){
                 custom={index}  
                 whileInView="onScreen"
                 initial ="offScreen"
+                viewport = {viewPort}
                 href={link} 
                 target="_blank" 
                 key={`social`+index}>

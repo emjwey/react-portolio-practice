@@ -1,5 +1,5 @@
 export  const viewPort = {
-    once: false,
+    once: true,
     amount: .5
 }
 

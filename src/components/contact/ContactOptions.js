@@ -37,8 +37,10 @@ export default function ContactOptions(){
                     custom={index}  
                     whileInView="onScreen"
                     initial ="offScreen"
+                    viewport = {viewPort}
                     className="contact__option" 
-                    key={title+index}>
+                    key={title+index}
+                >
                     {icon}
                     <h4>{title}</h4>
                     <p>{contact}</p>

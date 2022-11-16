@@ -1,6 +1,6 @@
 import { motion} from "framer-motion"
 import data from './data'
-import {staggerUp } from "../../animate"
+import {staggerUp, viewPort } from "../../animate"
 
 export default function Skill({isView}){
 
@@ -11,6 +11,7 @@ export default function Skill({isView}){
                 custom={index}  
                 whileInView="onScreen"
                 initial ="offScreen"
+                viewport = {viewPort}
                 className="about__card" 
                 key={index}>
                 <div className='progress__bar'>
@@ -18,12 +19,14 @@ export default function Skill({isView}){
                         whileInView={{width:`${percent}%` }}
                         initial={{width:0}}
                         transition={{ delay: 1}}
+                        viewport = {viewPort}
                         className='progress_level' 
                     ></motion.div>
                     <motion.span 
                         whileInView={{opacity: 1}} 
                         initial={{opacity: 0}}
                         transition={{  delay: 1.2}}
+                        viewport = {viewPort}
                     >
                         {percent} %
                     </motion.span >

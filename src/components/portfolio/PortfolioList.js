@@ -11,6 +11,7 @@ export default function PortfolioList(){
                 custom={index}  
                 whileInView="onScreen"
                 initial ="offScreen"
+                viewport = {viewPort}
                 href={url} 
                 target="_blank"  
                 key={`portfolio-${index}`}>

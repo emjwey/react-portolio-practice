@@ -10,6 +10,7 @@ export default function ServiceList(){
                 custom={index}  
                 whileInView="onScreen"
                 initial ="offScreen"
+                viewport = {viewPort}
                 className="service" key={index}>
                 <div className="service__head">
                     <motion.div

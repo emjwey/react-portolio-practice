@@ -19,8 +19,8 @@ export default function Nav(){
         {   url:"#contact" , icon: <BiMessageSquareDetail/>},
     ];
 
-    const navMenu = navItem.map(({url,icon}) =>  (
-        <a href={url} onClick={()=> setActive(url)} className={active === url ? 'active':''}>
+    const navMenu = navItem.map(({url,icon}, i) =>  (
+        <a key={`nav-`+i}href={url} onClick={()=> setActive(url)} className={active === url ? 'active':''}>
             {icon}
         </a>
     ))

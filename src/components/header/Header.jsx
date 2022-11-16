@@ -40,14 +40,14 @@ export default function Header(){
                 <CTA/>
                 <HeaderSocials/>
                 <motion.div 
-                    whileInView = {fadeIn.onScreen}
+                    animate = {fadeIn.onScreen}
                     initial = {fadeIn.offScreen}
                     variants = {fadeIn}
                     viewport = {viewPort}
                     transition={{  delay: 0.5}}
                     className="me">
                     <motion.img 
-                        whileInView = {fadeUp.onScreen}
+                        animate = {fadeUp.onScreen}
                         initial = {fadeUp.offScreen}
                         variants = {fadeUp}
                         viewport = {viewPort}
