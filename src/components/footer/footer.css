@@ -35,6 +35,9 @@
 /* ================= MEDIA QUERIES SMALL ================*/
 
 @media(max-width: 600px){
+    .footer__container{
+        @apply mt-12
+    }
     .footer__links{
         @apply flex-col gap-6
     }

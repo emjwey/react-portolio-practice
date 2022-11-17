@@ -119,6 +119,6 @@ img{
         @apply mb-8
     }
     section {
-        @apply pt-4  
+        @apply pt-4  mt-8
     } 
 }

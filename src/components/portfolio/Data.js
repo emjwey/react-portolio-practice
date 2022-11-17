@@ -1,12 +1,12 @@
-import Renovators from "../../assets/cropped/site_Renovator.png"
-import Webfx from "../../assets/cropped/site_Webfx.png"
-import Aware from "../../assets/cropped/site_Aware.png"
-import Chillit from "../../assets/cropped/site_Chillit.png"
-import Icona from "../../assets/cropped/site_Icona.png"
-import Pfitravel from "../../assets/cropped/site_Pfitravel.png"
-import Allimage from "../../assets/cropped/site_Allimage.png"
-import Hives from "../../assets/cropped/site_Hives.png"
-import Grassbross from "../../assets/cropped/site_Thegrassbross.png"
+import Renovators from "../../assets/cropped/site_Renovator.jpg"
+import Webfx from "../../assets/cropped/site_Webfx.jpg"
+import Aware from "../../assets/cropped/site_Aware.jpg"
+import Chillit from "../../assets/cropped/site_Chillit.jpg"
+import Icona from "../../assets/cropped/site_Icona.jpg"
+import Pfitravel from "../../assets/cropped/site_Pfitravel.jpg"
+import Allimage from "../../assets/cropped/site_Allimage.jpg"
+import Hives from "../../assets/cropped/site_Hives.jpg"
+import Grassbross from "../../assets/cropped/site_Thegrassbross.jpg"
 
 export default [
     
@@ -24,7 +24,7 @@ export default [
     },
     {
         title:'Chill IT',
-        category:'Marketing',
+        category:'Marketing, Corporate',
         url:'https://chillit.com.au/',
         image: Chillit
     },
@@ -43,7 +43,7 @@ export default [
     },
     {
         title:'All Image Architects',
-        category:'Marketing',
+        category:'Marketing, Corporate',
         url:'https://allimagearchitects.com.au/turn-your-dream-home-into-a-reality/',
         image: Allimage
     },
@@ -61,7 +61,7 @@ export default [
     },
     {
         title:'Renovators Directory',
-        category:'Marketing',
+        category:'Marketing, Corporate',
         url:'https://renovatorsdirectory.com.au/',
         image: Renovators
     },
