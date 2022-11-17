@@ -7,12 +7,12 @@ import { motion} from "framer-motion"
 export default function ContactOptions(){
 
     const options = [
-        {
-            icon:<MdOutlineEmail/>,
-            title:'Email',
-            contact:'me@emjwey.com',
-            link:'mailto:support@emjwey.com'
-        },
+        // {
+        //     icon:<MdOutlineEmail/>,
+        //     title:'Email',
+        //     contact:'me@emjwey.com',
+        //     link:'mailto:me@emjwey.com'
+        // },
         {
             icon:<RiMessengerLine/>,
             title:'Messenger',
