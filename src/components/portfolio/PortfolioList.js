@@ -17,7 +17,7 @@ export default function PortfolioList(){
                 key={`portfolio-${index}`}>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={image}/>
+                        <img src={image} alt={title} title={title}/>
                     </div>
                     
                     <div className="portfolio__item-info">

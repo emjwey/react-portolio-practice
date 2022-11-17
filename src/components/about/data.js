@@ -8,17 +8,17 @@ export default [
     {
         skill:"WordPress",
         icon: <DiWordpress/>,
-        percent: 90
+        percent: 100
     },
     {
         skill:"HTML/HTML5",
         icon: <AiFillHtml5/>,
-        percent: 90
+        percent: 100
     },
     {
         skill:"CSS/CSS3",
         icon: <DiCss3/>,
-        percent: 90
+        percent: 100
     },
     {
         skill:"PHP",
@@ -63,6 +63,6 @@ export default [
     {
         skill:"E-Commerce",
         icon: <AiFillShop/>,
-        percent: 75
+        percent: 100
     },
 ]
