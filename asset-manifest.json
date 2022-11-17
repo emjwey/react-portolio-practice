@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.380e6e83.css",
-    "main.js": "/static/js/main.db10a966.js",
+    "main.css": "/static/css/main.d5f61f09.css",
+    "main.js": "/static/js/main.63ab7671.js",
     "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.b548fab3bf677aadbd81.pdf",
-    "static/media/site_Thegrassbross.png": "/static/media/site_Thegrassbross.0658c2e7b1f8c56087f3.png",
-    "static/media/site_Pfitravel.png": "/static/media/site_Pfitravel.1ead80ed609a104b25c2.png",
-    "static/media/site_Renovator.png": "/static/media/site_Renovator.3bcbb3961c74c4a9b1d9.png",
-    "static/media/site_Hives.png": "/static/media/site_Hives.5ea420c3cca33bea5153.png",
     "static/media/me_standing.png": "/static/media/me_standing.419667a80fe11277fd48.png",
-    "static/media/site_Chillit.png": "/static/media/site_Chillit.07a825adc0f8e3e417a7.png",
-    "static/media/site_Aware.png": "/static/media/site_Aware.270b1e66b79161b1bbd9.png",
-    "static/media/site_Icona.png": "/static/media/site_Icona.bef24e9c21930d316e09.png",
-    "static/media/site_Allimage.png": "/static/media/site_Allimage.c63c96c935a24de7dd75.png",
     "static/media/mark.jpg": "/static/media/mark.49cc96d597968f4692b3.jpg",
-    "static/media/site_Webfx.png": "/static/media/site_Webfx.bf881c4fe9dfd98dcac2.png",
+    "static/media/site_Renovator.jpg": "/static/media/site_Renovator.3e78a384c221ca873ae7.jpg",
+    "static/media/site_Thegrassbross.jpg": "/static/media/site_Thegrassbross.11703e803852a32b97f0.jpg",
+    "static/media/site_Pfitravel.jpg": "/static/media/site_Pfitravel.7dcda885fb9616fadd3b.jpg",
+    "static/media/site_Hives.jpg": "/static/media/site_Hives.8e3521784bce822d20d9.jpg",
+    "static/media/site_Allimage.jpg": "/static/media/site_Allimage.eaa896e8c97c6c46ac28.jpg",
+    "static/media/site_Chillit.jpg": "/static/media/site_Chillit.71198f97817e8af5f7bc.jpg",
+    "static/media/site_Aware.jpg": "/static/media/site_Aware.0461278a149c28bd7f2e.jpg",
+    "static/media/site_Icona.jpg": "/static/media/site_Icona.b522bc14fd41bc1fb814.jpg",
+    "static/media/site_Webfx.jpg": "/static/media/site_Webfx.f3cd4d043a4ffb0ac1ac.jpg",
     "index.html": "/index.html",
-    "main.380e6e83.css.map": "/static/css/main.380e6e83.css.map",
-    "main.db10a966.js.map": "/static/js/main.db10a966.js.map"
+    "main.d5f61f09.css.map": "/static/css/main.d5f61f09.css.map",
+    "main.63ab7671.js.map": "/static/js/main.63ab7671.js.map"
   },
   "entrypoints": [
-    "static/css/main.380e6e83.css",
-    "static/js/main.db10a966.js"
+    "static/css/main.d5f61f09.css",
+    "static/js/main.63ab7671.js"
   ]
 }
