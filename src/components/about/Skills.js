@@ -22,14 +22,6 @@ export default function Skill({isView}){
                         viewport = {viewPort}
                         className='progress_level' 
                     ></motion.div>
-                    <motion.span 
-                        whileInView={{opacity: 1}} 
-                        initial={{opacity: 0}}
-                        transition={{  delay: 1.2}}
-                        viewport = {viewPort}
-                    >
-                        {percent} %
-                    </motion.span >
                 </div>
                 <span className='about__icon'>{icon} </span>
                 <h5>{skill}</h5>

@@ -32,6 +32,7 @@ export default function Contact(){
                 <ContactOptions/>
                 <ContactForm/>
             </div>
+            
         </section>
     )
 }

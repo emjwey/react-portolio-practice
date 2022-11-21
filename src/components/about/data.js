@@ -23,7 +23,7 @@ export default [
     {
         skill:"PHP",
         icon: <DiPhp/>,
-        percent: 55
+        percent: 62
     },
     {
         skill:"jQuery",
@@ -33,7 +33,7 @@ export default [
     {
         skill:"Javascript",
         icon: <DiJavascript1/>,
-        percent: 48
+        percent: 60
     },
     {
         skill:"Tailwindcss",

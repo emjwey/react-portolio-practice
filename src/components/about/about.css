@@ -82,4 +82,7 @@
     .about__card h5{
         @apply text-[12px]
     }
+    .about__icon svg {
+        @apply text-base mr-1
+    }
 }
