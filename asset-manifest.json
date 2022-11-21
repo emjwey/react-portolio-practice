@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5f61f09.css",
-    "main.js": "/static/js/main.828e7e66.js",
-    "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.41cf8a14638dea935d49.pdf",
+    "main.css": "/static/css/main.a7ef38bf.css",
+    "main.js": "/static/js/main.bf92ce11.js",
+    "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.7b094fc1078d37c4d2a0.pdf",
     "static/media/me_standing.png": "/static/media/me_standing.419667a80fe11277fd48.png",
     "static/media/mark.jpg": "/static/media/mark.49cc96d597968f4692b3.jpg",
     "static/media/site_Renovator.jpg": "/static/media/site_Renovator.3e78a384c221ca873ae7.jpg",
@@ -15,11 +15,11 @@
     "static/media/site_Icona.jpg": "/static/media/site_Icona.b522bc14fd41bc1fb814.jpg",
     "static/media/site_Webfx.jpg": "/static/media/site_Webfx.f3cd4d043a4ffb0ac1ac.jpg",
     "index.html": "/index.html",
-    "main.d5f61f09.css.map": "/static/css/main.d5f61f09.css.map",
-    "main.828e7e66.js.map": "/static/js/main.828e7e66.js.map"
+    "main.a7ef38bf.css.map": "/static/css/main.a7ef38bf.css.map",
+    "main.bf92ce11.js.map": "/static/js/main.bf92ce11.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5f61f09.css",
-    "static/js/main.828e7e66.js"
+    "static/css/main.a7ef38bf.css",
+    "static/js/main.bf92ce11.js"
   ]
 }
