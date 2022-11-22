@@ -1,31 +1,31 @@
-import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {FaLinkedinIn} from 'react-icons/fa'
-import { fadeIn2,staggerUp , viewPort } from '../../animate'
+import {AiFillSkype} from 'react-icons/ai'
+import {RiWhatsappFill} from "react-icons/ri"
+import {SiMessenger} from 'react-icons/si'
+import { staggerUp , viewPort } from '../../animate'
 import { motion} from "framer-motion"
 
 export default function ContactOptions(){
 
-    const options = [
-        // {
-        //     icon:<MdOutlineEmail/>,
-        //     title:'Email',
-        //     contact:'me@emjwey.com',
-        //     link:'mailto:me@emjwey.com'
-        // },
+    const options = [ 
+ 
         {
-            icon:<RiMessengerLine/>,
+            icon:<SiMessenger/>,
             title:'Messenger',
             contact:'emjwey',
             link:'https://m.me/emjwey',
             
         },
         {
-            icon:<FaLinkedinIn/>,
-            title:'Linkedin',
-            contact:'/in/emjwey',
-            link:'https://www.linkedin.com/in/emjwey',
-            button: "Connect"
+            icon:<RiWhatsappFill/>,
+            title:'Whatsapp',
+            contact:'6397618****',
+            link:'https://emjwey.com/whatsapp',
+        },
+        {
+            icon:<AiFillSkype/>,
+            title:'Skype',
+            contact:'Jeff',
+            link:'https://emjwey.com/skype',
         }
     ]
 

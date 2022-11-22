@@ -35,7 +35,7 @@ export default function Header(){
                      viewport = {viewPort}
                      transition={{  delay: 0.2}}
                 >
-                    Website Developer/WordPress Developer
+                    WordPress/Website Developer
                 </motion.h5>
                 <CTA/>
                 <HeaderSocials/>
