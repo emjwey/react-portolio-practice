@@ -30,7 +30,7 @@ header h5{
 /* IMAGE ME */
 
 .me{
-    @apply max-w-[350px] relative mt-20 mx-auto rounded-t-[12rem]   p-3 pt-[5rem]
+    @apply max-w-[350px] relative mt-20 mx-auto rounded-t-[12rem]   p-3 pt-[5rem] h-[609px]
     bg-gradient-to-b from-[var(--color-primary)] to-transparent
 }
 

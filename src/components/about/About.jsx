@@ -1,6 +1,6 @@
 import React from "react"
 import "./about.css"
-import ME from '../../assets/mark.jpg'
+import ME from '../../assets/about.webp'
 import Skills from "./Skills"
 import {motion}  from "framer-motion"
 import {fadeIn, fadeUp, rotate, viewPort, zoomIn} from "../../animate"

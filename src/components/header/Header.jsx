@@ -1,12 +1,13 @@
 
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me_standing.png'
+import ME from '../../assets/me.webp'
 import HeaderSocials from './HeaderSocials'
 import { motion } from "framer-motion"
 import {fadeUp, fadeIn, viewPort } from "../../animate"
 
 export default function Header(){
+     
     return (
         <header>
             <div className="container header__container">

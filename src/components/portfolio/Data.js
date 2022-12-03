@@ -1,12 +1,12 @@
-import Renovators from "../../assets/cropped/site_Renovator.jpg"
-import Webfx from "../../assets/cropped/site_Webfx.jpg"
-import Aware from "../../assets/cropped/site_Aware.jpg"
-import Chillit from "../../assets/cropped/site_Chillit.jpg"
-import Icona from "../../assets/cropped/site_Icona.jpg"
-import Pfitravel from "../../assets/cropped/site_Pfitravel.jpg"
-import Allimage from "../../assets/cropped/site_Allimage.jpg"
-import Hives from "../../assets/cropped/site_Hives.jpg"
-import Grassbross from "../../assets/cropped/site_Thegrassbross.jpg"
+import Renovators from "../../assets/cropped/site_Renovator.webp"
+import Webfx from "../../assets/cropped/site_Webfx.webp"
+import Aware from "../../assets/cropped/site_Aware.webp"
+import Chillit from "../../assets/cropped/site_Chillit.webp"
+import Icona from "../../assets/cropped/site_Icona.webp"
+import Pfitravel from "../../assets/cropped/site_Pfitravel.webp"
+import Allimage from "../../assets/cropped/site_Allimage.webp"
+import Hives from "../../assets/cropped/site_Hives.webp"
+import Grassbross from "../../assets/cropped/site_Thegrassbross.webp"
 
 export default [
     
