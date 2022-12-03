@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7ef38bf.css",
-    "main.js": "/static/js/main.29e7e9e3.js",
+    "main.css": "/static/css/main.ab75e71f.css",
+    "main.js": "/static/js/main.c8e11a85.js",
     "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.7b094fc1078d37c4d2a0.pdf",
-    "static/media/me_standing.png": "/static/media/me_standing.419667a80fe11277fd48.png",
-    "static/media/mark.jpg": "/static/media/mark.49cc96d597968f4692b3.jpg",
-    "static/media/site_Renovator.jpg": "/static/media/site_Renovator.3e78a384c221ca873ae7.jpg",
-    "static/media/site_Thegrassbross.jpg": "/static/media/site_Thegrassbross.11703e803852a32b97f0.jpg",
-    "static/media/site_Pfitravel.jpg": "/static/media/site_Pfitravel.7dcda885fb9616fadd3b.jpg",
-    "static/media/site_Hives.jpg": "/static/media/site_Hives.8e3521784bce822d20d9.jpg",
-    "static/media/site_Allimage.jpg": "/static/media/site_Allimage.eaa896e8c97c6c46ac28.jpg",
-    "static/media/site_Chillit.jpg": "/static/media/site_Chillit.71198f97817e8af5f7bc.jpg",
-    "static/media/site_Aware.jpg": "/static/media/site_Aware.0461278a149c28bd7f2e.jpg",
-    "static/media/site_Icona.jpg": "/static/media/site_Icona.b522bc14fd41bc1fb814.jpg",
-    "static/media/site_Webfx.jpg": "/static/media/site_Webfx.f3cd4d043a4ffb0ac1ac.jpg",
+    "static/media/about.webp": "/static/media/about.c7279fb0794c766678f4.webp",
+    "static/media/site_Thegrassbross.webp": "/static/media/site_Thegrassbross.0c537d4fe3b6a6aeaf4f.webp",
+    "static/media/site_Pfitravel.webp": "/static/media/site_Pfitravel.a6d3fd07bb9bb64033af.webp",
+    "static/media/site_Renovator.webp": "/static/media/site_Renovator.8149cdbf725240722dfc.webp",
+    "static/media/site_Hives.webp": "/static/media/site_Hives.ad63b59aa6941334f3f7.webp",
+    "static/media/me.webp": "/static/media/me.cce12065162a147e7480.webp",
+    "static/media/site_Allimage.webp": "/static/media/site_Allimage.bdeb3dae8846f294e10f.webp",
+    "static/media/site_Chillit.webp": "/static/media/site_Chillit.429b31b1c4fbe7328b5d.webp",
+    "static/media/site_Aware.webp": "/static/media/site_Aware.ad2122179ea0301a13ad.webp",
+    "static/media/site_Icona.webp": "/static/media/site_Icona.60e1c30380e59729e895.webp",
+    "static/media/site_Webfx.webp": "/static/media/site_Webfx.992335c70539e4468c49.webp",
     "index.html": "/index.html",
-    "main.a7ef38bf.css.map": "/static/css/main.a7ef38bf.css.map",
-    "main.29e7e9e3.js.map": "/static/js/main.29e7e9e3.js.map"
+    "main.ab75e71f.css.map": "/static/css/main.ab75e71f.css.map",
+    "main.c8e11a85.js.map": "/static/js/main.c8e11a85.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7ef38bf.css",
-    "static/js/main.29e7e9e3.js"
+    "static/css/main.ab75e71f.css",
+    "static/js/main.c8e11a85.js"
   ]
 }
