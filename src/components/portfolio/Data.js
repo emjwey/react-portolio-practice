@@ -7,9 +7,15 @@ import Pfitravel from "../../assets/cropped/site_Pfitravel.webp"
 import Allimage from "../../assets/cropped/site_Allimage.webp"
 import Hives from "../../assets/cropped/site_Hives.webp"
 import Grassbross from "../../assets/cropped/site_Thegrassbross.webp"
+import EastView from '../../assets/cropped/site_EastView.webp'
 
 export default [
-    
+    {
+        title:'EastView Energy',
+        category:'Commercial',
+        url:'http://eastviewenergy.com/',
+        image: EastView
+    },
     {
         title:'Aware Group Online',
         category:'E-commerce, Membership',
