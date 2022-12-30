@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.ab75e71f.css",
-    "main.js": "/static/js/main.c8e11a85.js",
+    "main.js": "/static/js/main.49d8779a.js",
     "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.7b094fc1078d37c4d2a0.pdf",
+    "static/media/site_EastView.webp": "/static/media/site_EastView.508a59c3b46ac2bc4823.webp",
     "static/media/about.webp": "/static/media/about.c7279fb0794c766678f4.webp",
     "static/media/site_Thegrassbross.webp": "/static/media/site_Thegrassbross.0c537d4fe3b6a6aeaf4f.webp",
     "static/media/site_Pfitravel.webp": "/static/media/site_Pfitravel.a6d3fd07bb9bb64033af.webp",
@@ -13,13 +14,13 @@
     "static/media/site_Chillit.webp": "/static/media/site_Chillit.429b31b1c4fbe7328b5d.webp",
     "static/media/site_Aware.webp": "/static/media/site_Aware.ad2122179ea0301a13ad.webp",
     "static/media/site_Icona.webp": "/static/media/site_Icona.60e1c30380e59729e895.webp",
-    "static/media/site_Webfx.webp": "/static/media/site_Webfx.992335c70539e4468c49.webp",
+    "static/media/site_Webfx.webp": "/static/media/site_Webfx.db2f4b5a194524dd08d0.webp",
     "index.html": "/index.html",
     "main.ab75e71f.css.map": "/static/css/main.ab75e71f.css.map",
-    "main.c8e11a85.js.map": "/static/js/main.c8e11a85.js.map"
+    "main.49d8779a.js.map": "/static/js/main.49d8779a.js.map"
   },
   "entrypoints": [
     "static/css/main.ab75e71f.css",
-    "static/js/main.c8e11a85.js"
+    "static/js/main.49d8779a.js"
   ]
 }
