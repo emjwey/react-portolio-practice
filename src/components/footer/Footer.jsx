@@ -59,7 +59,7 @@ export default function Footer(){
                     variants = {fadeIn}
                     viewport = {viewPort}
                     transition={{ delay: 0.2}}
-                > Mark Jefferson Aninon. &copy; 2022</motion.small>
+                > Mark Jefferson Aniñon. &copy; 2022</motion.small>
             </div>
         </footer>
     )
