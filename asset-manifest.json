@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab75e71f.css",
-    "main.js": "/static/js/main.49d8779a.js",
+    "main.css": "/static/css/main.e361ebe5.css",
+    "main.js": "/static/js/main.92851971.js",
     "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.7b094fc1078d37c4d2a0.pdf",
     "static/media/site_EastView.webp": "/static/media/site_EastView.508a59c3b46ac2bc4823.webp",
     "static/media/about.webp": "/static/media/about.c7279fb0794c766678f4.webp",
@@ -16,11 +16,11 @@
     "static/media/site_Icona.webp": "/static/media/site_Icona.60e1c30380e59729e895.webp",
     "static/media/site_Webfx.webp": "/static/media/site_Webfx.db2f4b5a194524dd08d0.webp",
     "index.html": "/index.html",
-    "main.ab75e71f.css.map": "/static/css/main.ab75e71f.css.map",
-    "main.49d8779a.js.map": "/static/js/main.49d8779a.js.map"
+    "main.e361ebe5.css.map": "/static/css/main.e361ebe5.css.map",
+    "main.92851971.js.map": "/static/js/main.92851971.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab75e71f.css",
-    "static/js/main.49d8779a.js"
+    "static/css/main.e361ebe5.css",
+    "static/js/main.92851971.js"
   ]
 }
