@@ -47,7 +47,7 @@
     @apply absolute w-[93%]
 }
 .progress__bar > div{
-    @apply block bg-[#28264c] h-[30px] z-[5] rounded-3xl
+    @apply block bg-[#28264c] h-[30px] z-[5] rounded-3xl pointer-events-none
 }
 .progress__bar span {
     @apply absolute right-0 top-0 opacity-[.4] text-[9px] pointer-events-none

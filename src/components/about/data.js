@@ -8,7 +8,7 @@ export default [
     {
         skill:"WordPress",
         icon: <DiWordpress/>,
-        percent: 90
+        percent: 87
     },
     {
         skill:"HTML/HTML5",
@@ -63,6 +63,6 @@ export default [
     {
         skill:"E-Commerce",
         icon: <AiFillShop/>,
-        percent: 90
+        percent: 84
     },
 ]
