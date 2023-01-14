@@ -8,13 +8,26 @@ import Allimage from "../../assets/cropped/site_Allimage.webp"
 import Hives from "../../assets/cropped/site_Hives.webp"
 import Grassbross from "../../assets/cropped/site_Thegrassbross.webp"
 import EastView from '../../assets/cropped/site_EastView.webp'
+import Ebadges from '../../assets/cropped/site_Ebadges.webp'
 
 export default [
     {
+        title:'E-Badges International',
+        category:'Commercial, Marketing',
+        url:'https://ebadges-international.com/',
+        image: Ebadges
+    },
+    {
         title:'EastView Energy',
         category:'Commercial',
-        url:'http://eastviewenergy.com/',
+        url:'https://eastviewenergy.com/',
         image: EastView
+    },
+    {
+        title:'Chill IT',
+        category:'Marketing, Corporate',
+        url:'https://chillit.com.au/',
+        image: Chillit
     },
     {
         title:'Aware Group Online',
@@ -28,13 +41,6 @@ export default [
         url:'https://webandgraphics.delonix.com.au/',
         image: Webfx
     },
-    {
-        title:'Chill IT',
-        category:'Marketing, Corporate',
-        url:'https://chillit.com.au/',
-        image: Chillit
-    },
-    
     {
         title:'Icona',
         category:'Marketing, E-commerce',
