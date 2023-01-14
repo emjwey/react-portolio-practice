@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e361ebe5.css",
-    "main.js": "/static/js/main.92851971.js",
+    "main.js": "/static/js/main.9ab7d639.js",
     "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.7b094fc1078d37c4d2a0.pdf",
     "static/media/site_EastView.webp": "/static/media/site_EastView.508a59c3b46ac2bc4823.webp",
     "static/media/about.webp": "/static/media/about.c7279fb0794c766678f4.webp",
@@ -11,16 +11,17 @@
     "static/media/site_Hives.webp": "/static/media/site_Hives.ad63b59aa6941334f3f7.webp",
     "static/media/me.webp": "/static/media/me.cce12065162a147e7480.webp",
     "static/media/site_Allimage.webp": "/static/media/site_Allimage.bdeb3dae8846f294e10f.webp",
+    "static/media/site_Ebadges.webp": "/static/media/site_Ebadges.caa01343ba66b23702c8.webp",
     "static/media/site_Chillit.webp": "/static/media/site_Chillit.429b31b1c4fbe7328b5d.webp",
     "static/media/site_Aware.webp": "/static/media/site_Aware.ad2122179ea0301a13ad.webp",
     "static/media/site_Icona.webp": "/static/media/site_Icona.60e1c30380e59729e895.webp",
     "static/media/site_Webfx.webp": "/static/media/site_Webfx.db2f4b5a194524dd08d0.webp",
     "index.html": "/index.html",
     "main.e361ebe5.css.map": "/static/css/main.e361ebe5.css.map",
-    "main.92851971.js.map": "/static/js/main.92851971.js.map"
+    "main.9ab7d639.js.map": "/static/js/main.9ab7d639.js.map"
   },
   "entrypoints": [
     "static/css/main.e361ebe5.css",
-    "static/js/main.92851971.js"
+    "static/js/main.9ab7d639.js"
   ]
 }
