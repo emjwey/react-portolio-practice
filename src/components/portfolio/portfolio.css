@@ -21,7 +21,12 @@
 .portfolio__item p{
     @apply mb-2   text-sm font-thin text-white
 }
-
+.portfolio__item-info img {
+    @apply absolute w-[50px] right-[20px] bottom-[15px] opacity-0 duration-300
+}
+.portfolio__item:hover .portfolio__item-info img {
+    @apply opacity-100
+}
 .portfolio__item-info{
     @apply   absolute  w-full pt-24 h-[160px]
     bg-gradient-to-t from-[var(--color-bg)] to-transparent left-0 bottom-0 p-5

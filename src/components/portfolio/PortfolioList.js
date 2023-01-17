@@ -4,7 +4,7 @@ import { motion} from "framer-motion"
 
 export default function PortfolioList(){
  
-    return Data.map(({url, title, category, image},index) => {
+    return Data.map(({url, title, category, image, builder, build},index) => {
         return (
             <motion.a
                 variants={staggerUp}  
@@ -30,6 +30,9 @@ export default function PortfolioList(){
                         >
                             <h3>{title}</h3> 
                             <p>{category}</p>
+                            <img 
+                                src={builder} 
+                                title={ build }/>
                         </motion.div>
                     </div>
                 </article>
