@@ -1,4 +1,2 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://me.emjwey.com/sitemap.xml
+User-agent: /
+Disallow: *
