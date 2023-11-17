@@ -38,12 +38,12 @@ export default [
     {
         skill:"Tailwindcss",
         icon: <SiTailwindcss/>,
-        percent: 45
+        percent: 20
     },
     {
         skill:"React Js",
         icon: <DiReact/>,
-        percent: 30
+        percent: 20
     },
     {
         skill:"MySQL",

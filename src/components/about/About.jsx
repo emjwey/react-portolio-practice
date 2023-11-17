@@ -59,7 +59,7 @@ export default function About(){
                         variants = {fadeUp}
                         viewport = {viewPort}
                         transition={{ delay: 0.1}}
-                        >A <strong>WordPress Developer</strong> with 3 years of experience on WordPress CMS Websites. I use theme builder such as Elementor, Beaver Builder, Divi. I also customize, create custom-post-types, ACF, 3rd party integration with standard coding. I have experience with E-commerce, Membership, and Learning Management System.
+                        >A <strong>WordPress Developer</strong> with 4+ years of experience on WordPress CMS Websites. I use theme builder such as Elementor, Beaver Builder, Divi. I also customize, create custom-post-types, ACF, 3rd party integration with standard coding. I have experience with E-commerce, Membership, and Learning Management System.
                     </motion.p>
                     <motion.a 
                         whileInView = {fadeUp.onScreen}

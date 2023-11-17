@@ -18,7 +18,7 @@ export default function ContactOptions(){
         {
             icon:<RiWhatsappFill/>,
             title:'Whatsapp',
-            contact:'6397618****',
+            contact:'*******1950',
             link:'https://emjwey.com/whatsapp',
         },
         {

@@ -1,6 +1,6 @@
-import CV from '../../assets/Mark_Jefferson_Aniñon_Resume.pdf'
 import { motion } from "framer-motion"
 import { fadeUp, viewPort } from "../../animate"
+const cv = 'https://emjwey.com/resume'
 
 export default function CTA(){
     return (
@@ -11,7 +11,9 @@ export default function CTA(){
                 variants = {fadeUp}
                 viewport = {viewPort}
                 transition = {{delay: .04}}
-                href={CV} download className='btn'
+                href={cv}
+                className='btn'
+                target="_blank"
             >
                 Download CV
             </motion.a>
