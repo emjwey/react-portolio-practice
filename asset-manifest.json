@@ -1,27 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e87e03e.css",
-    "main.js": "/static/js/main.18efcee9.js",
-    "static/media/Mark_Jefferson_Aniñon_Resume.pdf": "/static/media/Mark_Jefferson_Aniñon_Resume.7b094fc1078d37c4d2a0.pdf",
-    "static/media/site_EastView.webp": "/static/media/site_EastView.508a59c3b46ac2bc4823.webp",
+    "main.css": "/static/css/main.0a118cdf.css",
+    "main.js": "/static/js/main.643dca48.js",
+    "static/media/elites.webp": "/static/media/elites.1ad472841bb1fe34498a.webp",
+    "static/media/fortis.webp": "/static/media/fortis.02a23a147fc15a9c39a1.webp",
+    "static/media/lms_mm.webp": "/static/media/lms_mm.6a9cf062164d6f5fbde3.webp",
     "static/media/about.webp": "/static/media/about.c7279fb0794c766678f4.webp",
-    "static/media/site_Thegrassbross.webp": "/static/media/site_Thegrassbross.0c537d4fe3b6a6aeaf4f.webp",
     "static/media/site_Pfitravel.webp": "/static/media/site_Pfitravel.a6d3fd07bb9bb64033af.webp",
-    "static/media/site_Renovator.webp": "/static/media/site_Renovator.8149cdbf725240722dfc.webp",
-    "static/media/site_Hives.webp": "/static/media/site_Hives.ad63b59aa6941334f3f7.webp",
     "static/media/me.webp": "/static/media/me.cce12065162a147e7480.webp",
-    "static/media/site_Allimage.webp": "/static/media/site_Allimage.bdeb3dae8846f294e10f.webp",
-    "static/media/site_Ebadges.webp": "/static/media/site_Ebadges.caa01343ba66b23702c8.webp",
-    "static/media/site_Chillit.webp": "/static/media/site_Chillit.429b31b1c4fbe7328b5d.webp",
     "static/media/site_Aware.webp": "/static/media/site_Aware.ad2122179ea0301a13ad.webp",
-    "static/media/site_Icona.webp": "/static/media/site_Icona.60e1c30380e59729e895.webp",
     "static/media/site_Webfx.webp": "/static/media/site_Webfx.db2f4b5a194524dd08d0.webp",
     "index.html": "/index.html",
-    "main.8e87e03e.css.map": "/static/css/main.8e87e03e.css.map",
-    "main.18efcee9.js.map": "/static/js/main.18efcee9.js.map"
+    "main.0a118cdf.css.map": "/static/css/main.0a118cdf.css.map",
+    "main.643dca48.js.map": "/static/js/main.643dca48.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e87e03e.css",
-    "static/js/main.18efcee9.js"
+    "static/css/main.0a118cdf.css",
+    "static/js/main.643dca48.js"
   ]
 }
